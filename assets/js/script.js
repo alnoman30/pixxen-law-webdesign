@@ -1732,36 +1732,6 @@ function initH2Scroll() {
 
 
 
-// lotti aniamtion
-
-const icons = document.querySelectorAll('.iconanimation');
-const icons2 = document.querySelectorAll('.iconanimation-banner');
-
-  icons.forEach(icon => {
-    const animationPath = icon.getAttribute('data-animation');
-
-    lottie.loadAnimation({
-      container: icon,
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: animationPath
-    });
-  });
-  icons2.forEach(icon => {
-    const animationPath = icon.getAttribute('data-animation');
-
-    lottie.loadAnimation({
-      container: icon,
-      renderer: 'svg',
-      loop: false,
-      autoplay: true,
-      path: animationPath
-    });
-  });
-
-
-
 
 //smooth scroll
 
@@ -1858,26 +1828,170 @@ if (allIndustriesGrid) {
 
 
 
-// noman js start from here
-gsap.utils.toArray(".gsap-fade-in").forEach((el) => {
-  gsap.fromTo(
-    el,
-    {
-      y: 50,
-      opacity: 0,
-      filter: "blur(12px)"
-    },
-    {
-      y: 0,
-      opacity: 1,
-      filter: "blur(0px)",
-      duration: 1.5,
-      ease: "power3.out",
-      scrollTrigger: {
-        trigger: el,
-        start: "top 80%",
-        toggleActions: "play none none none"
+// Law Firm js start from here (Noman)
+
+// content fade in on scroll
+function initLawFirmFadeIn(selector = ".Law-fade-in") {
+  const elements = gsap.utils.toArray(selector);
+
+  elements.forEach((el) => {
+    gsap.fromTo(
+      el,
+      {
+        y: 50,
+        opacity: 0,
+        filter: "blur(12px)"
+      },
+      {
+        y: 0,
+        opacity: 1,
+        filter: "blur(0px)",
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: el,
+          start: "top 80%",
+          toggleActions: "play none none none"
+        }
       }
+    );
+  });
+}
+initLawFirmFadeIn(".Law-fade-in");
+
+
+// law faq section
+document.addEventListener("DOMContentLoaded", () => {
+
+  const items = document.querySelectorAll(".law-faq-item");
+
+  // SET INITIAL STATE
+  items.forEach(item => {
+    const wrap = item.querySelector(".law-faq-content");
+    const inner = item.querySelector(".law-faq-content > div");
+
+    gsap.set(wrap, { height: 0, overflow: "hidden" });
+    gsap.set(inner, { opacity: 0, y: -10, filter: "blur(10px)" });
+  });
+
+  // CLOSE ALL ITEMS
+  function closeAll() {
+    items.forEach(item => {
+
+      item.classList.remove("is-active");
+
+      const wrap = item.querySelector(".law-faq-content");
+      const inner = item.querySelector(".law-faq-content > div");
+
+      const plus = item.querySelector(".law-icon-plus");
+      const minus = item.querySelector(".law-icon-minus");
+
+      gsap.to(wrap, { height: 0, duration: 0.4, ease: "power2.inOut" });
+
+      gsap.to(inner, {
+        opacity: 0,
+        y: -10,
+        filter: "blur(10px)",
+        duration: 0.25
+      });
+
+      plus.style.opacity = "1";
+      minus.style.opacity = "0";
+    });
+  }
+
+  // MAIN CLICK
+  items.forEach(item => {
+
+    const trigger = item.querySelector(".law-faq-trigger");
+    const wrap = item.querySelector(".law-faq-content");
+    const inner = item.querySelector(".law-faq-content > div");
+
+    const plus = item.querySelector(".law-icon-plus");
+    const minus = item.querySelector(".law-icon-minus");
+
+    trigger.addEventListener("click", () => {
+
+      const isOpen = item.classList.contains("is-active");
+
+      closeAll();
+
+      if (!isOpen) {
+
+        item.classList.add("is-active");
+
+        gsap.to(wrap, {
+          height: "auto",
+          duration: 0.5,
+          ease: "power2.inOut"
+        });
+
+        gsap.to(inner, {
+          opacity: 1,
+          y: 0,
+          filter: "blur(0px)",
+          duration: 0.4
+        });
+
+        plus.style.opacity = "0";
+        minus.style.opacity = "1";
+      }
+
+    });
+
+  });
+
+});
+
+// law-testimonial slider
+document.addEventListener('DOMContentLoaded', function () {
+  const commonOptions = {
+    type: 'loop',
+    perPage: 3,
+    gap: '2rem',
+    arrows: true,
+    pagination: false,
+    autoplay: true,
+    interval: 5000,
+    pauseOnHover: true,
+
+    breakpoints: {
+      1024: { perPage: 2 },
+      768: { perPage: 1, gap: '1rem' }
     }
-  );
+  };
+
+  new Splide('.law-testimonial-slider', commonOptions).mount();
+  new Splide('.law-projects-slider', commonOptions).mount();
+});
+
+
+// 
+function initSmoothScrollArrow(selector, scrollAmount = 800) {
+    const arrows = document.querySelectorAll(selector);
+
+    if (!arrows.length) return;
+
+    // Pulse animation
+    gsap.to(selector, {
+        opacity: 0.8,
+        y: 8,
+        duration: 1.2,
+        ease: "power1.inOut",
+        repeat: -1,
+        yoyo: true
+    });
+
+    arrows.forEach((arrow) => {
+        arrow.addEventListener("click", () => {
+            lenis.scrollTo(window.scrollY + scrollAmount, {
+                duration: 1.2,
+                easing: (t) => 1 - Math.pow(1 - t, 3)
+            });
+        });
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    initSmoothScrollArrow(".law-banner-down-arrow");
 });

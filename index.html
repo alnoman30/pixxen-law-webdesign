@@ -336,7 +336,7 @@
         <!-- end mobile-menu-wrapper -->
     </nav>
 
-    <!-- FULL PAGE MENU -->
+    <!-- Full page menu -->
     <div id="pixxen-menu" role="dialog" aria-modal="true" aria-label="Main navigation">
 
         <!-- TOP PANEL: slides in from top -->
@@ -430,178 +430,167 @@
         </div><!-- /menu-bottom -->
 
     </div>
-    <!-- / FULL PAGE MENU -->
+    <!-- Full page menu -->
 
-      <!-- banner section start -->
-    <section class="banner-wrapper bg-dark-rosewood relative overflow-hidden flex items-center h-screen">
+    <!-- Banner section -->
+    <section
+        class="hero relative min-h-screen lg:h-screen lg:max-h-screen flex flex-col justify-between bg-dark-rosewood overflow-hidden select-none">
 
-        <!-- Right Side Image -->
-        <div class="hidden lg:block absolute bottom-0 right-0 h-full w-[45%] pointer-events-none">
+        <div class="hidden lg:block absolute bottom-0 right-0 w-[45%] h-[90vh] pointer-events-none z-10">
             <img src="assets/images/banner-person.webp" alt="Attorney Portrait"
-                class="h-full w-full object-contain object-bottom" />
+                class="h-full w-full object-contain object-bottom select-none" />
         </div>
 
-        <div class="container relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div class="w-full grow flex items-center relative py-12 lg:py-0 z-20">
+            <div class="container mx-auto px-4 w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
 
-                <!-- Left Content Column -->
-                <div class="lg:col-span-7 flex flex-col justify-center text-white pt-12 lg:pt-0">
+                    <div class="lg:col-span-7 text-white space-y-6 lg:space-y-8">
 
-                    <!-- Heading -->
-                    <h1
-                        class="font-hepta-slab font-light text-4xl sm:text-5xl md:text-6xl lg:text-[112px] leading-[110%] mb-4 max-w-xl">
-                        Law firm website
-                    </h1>
+                        <h1
+                            class="font-hepta-slab font-light text-[42px] sm:text-[56px] md:text-[72px] lg:text-[90px] xl:text-[112px] leading-[110%] max-w-xl">
+                            Law firm website
+                        </h1>
 
-                    <!-- Subtitle -->
-                    <p
-                        class="font-hepta-slab font-light text-lg sm:text-xl md:text-2xl lg:text-[40px] text-white leading-[110%] max-w-[768px] mb-8">
-                        Design that turns search traffic into signed retainers
-                    </p>
+                        <p
+                            class="font-hepta-slab font-light text-xl sm:text-2xl lg:text-[32px] xl:text-[40px] leading-[110%] max-w-180">
+                            Design that turns search traffic into signed retainers
+                        </p>
 
-                    <!-- CTA -->
-                    <div class="mb-8 md:mb-24">
-                        <a href="contact.html"
-                            class="inline-flex items-center justify-center xl:px-12 md:px-5 px-6 py-4 mega-reveal-btn relative overflow-hidden bg-yellow text-black font-bold transition-colors uppercase">
-                            <div class="text-mask h-6 overflow-hidden flex flex-col">
-                                <span class="t-up text-base font-medium text-black">
-                                    Book a free 15-min call
-                                </span>
-                                <span class="t-down text-base font-medium text-black">
-                                    Book a free 15-min call
-                                </span>
-                            </div>
-                        </a>
-                    </div>
+                        <div class="pt-2">
+                            <a href="contact.html"
+                                class="inline-flex items-center justify-center xl:px-12 md:px-5 px-6 py-4 mega-reveal-btn relative overflow-hidden bg-yellow text-black font-bold transition-colors uppercase">
+                                <div class="text-mask h-6 overflow-hidden flex flex-col">
+                                    <span class="t-up text-base font-medium text-black">
+                                        Book a free 15-min call
+                                    </span>
+                                    <span class="t-down text-base font-medium text-black">
+                                        Book a free 15-min call
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
 
-                    <!-- Bottom Info Grid -->
-                    <div class="border-t border-white pt-6 grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+                        <div class="border-t border-white/30 md:border-white pt-6 max-w-200 mt-10 md:mt-20">
+                            <div class="grid grid-cols-1 md:grid-cols-3 ">
 
-                        <div>
-                            <div class="text-3xl md:text-[48px] font-normal leading-[110%] font-hepta-slab">
-                                $999
-                            </div>
-                            <div
-                                class="text-sm md:text-base font-normal leading-[130%] text-white mt-1 font-hepta-slab">
-                                Everything included
+                                <div>
+                                    <div class="text-[38px] lg:text-[48px] font-hepta-slab font-normal leading-[110%]">
+                                        $999
+                                    </div>
+                                    <div
+                                        class="text-xs sm:text-sm md:text-base font-normal leading-[110%] font-hepta-slab pt-4">
+                                        Everything included
+                                    </div>
+                                </div>
+
+                                <div class="md:col-span-2 flex flex-col sm:flex-row justify-between gap-4">
+                                    <p class="text-sm sm:text-base font-normal leading-[130%] font-hepta-slab">
+                                        Logo, branding, custom attorney website,
+                                        SEO content built around real practice-area
+                                        keywords, on-page SEO, and Google Business
+                                        Profile setup.
+                                    </p>
+
+                                    <div
+                                        class="law-banner-down-arrow hidden md:flex shrink-0 w-24 h-24 border border-white rounded-full items-center justify-center text-white hover:text-rosewood1 hover:border-rosewood1 transition-colors duration-200 cursor-pointer ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96"
+                                            viewBox="0 0 96 96" fill="none">
+                                            <path d="M48 22L48 74" stroke="currentColor" stroke-width="2" />
+                                            <path d="M26 57.2858L47.9999 74L70 57.2858" stroke="currentColor"
+                                                stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
-                        <div
-                            class="md:col-span-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                    </div>
 
-                            <p
-                                class="text-sm md:text-base font-normal leading-[130%] text-white font-hepta-slab max-w-full md:max-w-md">
-                                Logo, branding, custom attorney website, SEO content built around real practice-area
-                                keywords,
-                                on-page SEO, and Google Business Profile setup.
-                            </p>
+                </div>
+            </div>
+        </div>
 
-                            <!-- Down Arrow -->
-                            <div
-                                class="shrink-0 w-20 h-20 md:w-24 md:h-24 border border-white rounded-full flex items-center justify-center text-white hover:text-light-rosewood hover:border-light-rosewood transition-colors duration-300 cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96"
-                                    fill="none">
-                                    <path d="M48 22L48 74" stroke="currentColor" stroke-width="2" />
-                                    <path d="M26 57.2858L47.9999 74L70 57.2858" stroke="currentColor"
-                                        stroke-width="2" />
-                                </svg>
-                            </div>
+        <div
+            class="block lg:hidden absolute bottom-16 left-1/2 -translate-x-1/2 w-full max-w-[320px] sm:max-w-[360px] h-[40vh] pointer-events-none z-10 opacity-40">
+            <img src="assets/images/banner-person.webp" alt="Attorney Portrait"
+                class="w-full h-full object-contain object-bottom">
+        </div>
 
+        <!-- GLASS TICKER BAR FOOTER MODULE -->
+        <section class="banner-bottom-area w-full relative z-30 mt-auto shrink-0">
+            <div class="bg-white/5 backdrop-blur-xl border-t border-white/10 shadow-[0_-10px_35px_rgba(0,0,0,0.3)]">
+                <div class="container mx-auto px-4">
+
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 py-4 lg:py-6">
+
+                        <div class="flex items-center gap-2 w-full min-w-0 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white shrink-0 opacity-90"
+                                viewBox="0 0 27 27" fill="none">
+                                <rect x="0.5" y="0.5" width="26" height="26" rx="13" stroke="currentColor" />
+                                <path d="M7 14.4226L10.3133 19L19 7" stroke="currentColor" />
+                            </svg>
+                            <span class="text-white text-[11px] sm:text-xs lg:text-lg font-light leading-[110%]">
+                                Trusted by US & UK attorneys
+                            </span>
                         </div>
+
+                        <div class="flex items-center gap-2 w-full min-w-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white shrink-0 opacity-90"
+                                viewBox="0 0 27 27" fill="none">
+                                <rect x="0.5" y="0.5" width="26" height="26" rx="13" stroke="currentColor" />
+                                <path d="M7 14.4226L10.3133 19L19 7" stroke="currentColor" />
+                            </svg>
+                            <span class="text-white text-[11px] sm:text-xs lg:text-lg font-light leading-[110%]">
+                                No retainers
+                            </span>
+                        </div>
+
+                        <div class="flex items-center gap-2 w-full min-w-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white shrink-0 opacity-90"
+                                viewBox="0 0 27 27" fill="none">
+                                <rect x="0.5" y="0.5" width="26" height="26" rx="13" stroke="currentColor" />
+                                <path d="M7 14.4226L10.3133 19L19 7" stroke="currentColor" />
+                            </svg>
+                            <span class="text-white text-[11px] sm:text-xs lg:text-lg font-light leading-[110%]">
+                                14-day delivery
+                            </span>
+                        </div>
+
+                        <div class="flex items-center gap-2 w-full min-w-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white shrink-0 opacity-90"
+                                viewBox="0 0 27 27" fill="none">
+                                <rect x="0.5" y="0.5" width="26" height="26" rx="13" stroke="currentColor" />
+                                <path d="M7 14.4226L10.3133 19L19 7" stroke="currentColor" />
+                            </svg>
+                            <span class="text-white text-[11px] sm:text-xs lg:text-lg font-light leading-[110%]">
+                                GBP setup included
+                            </span>
+                        </div>
+
+                        <div class="flex items-center gap-2 w-full min-w-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white shrink-0 opacity-90"
+                                viewBox="0 0 27 27" fill="none">
+                                <rect x="0.5" y="0.5" width="26" height="26" rx="13" stroke="currentColor" />
+                                <path d="M7 14.4226L10.3133 19L19 7" stroke="currentColor" />
+                            </svg>
+                            <span class="text-white text-[11px] sm:text-xs lg:text-lg font-light leading-[110%]">
+                                Launch in 14 days
+                            </span>
+                        </div>
+
                     </div>
-                </div>
 
-                <!-- Mobile Image -->
-                <div class="lg:hidden flex justify-center mt-8 w-full">
-                    <img src="assets/images/banner-person.webp" alt="Attorney Portrait"
-                        class="w-full h-auto max-h-[60vh] object-contain" />
                 </div>
-
             </div>
-        </div>
-
+        </section>
     </section>
-    <!-- banner section end -->
-  
-  
-  
-  <!-- Glass Bottom Section -->
-    <section class="banner-bottom-area absolute bottom-0 left-0 w-full z-20">
-        <div class="bg-white/5 backdrop-blur-xl border-y border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.2)]">
-            <div class="container">
+    <!-- Banner section -->
 
-                <div class="grid grid-cols-2 lg:grid-cols-5">
-
-                    <!-- Item 1 -->
-                    <div class="flex items-start sm:items-center gap-3 py-4 sm:py-6 lg:justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 sm:w-6.75 sm:h-6.75 shrink-0"
-                            viewBox="0 0 27 27" fill="none">
-                            <rect x="0.5" y="0.5" width="26" height="26" rx="13" stroke="white" />
-                            <path d="M7 14.4226L10.3133 19L19 7" stroke="white" />
-                        </svg>
-                        <span class="text-white font-hepta-slab text-[12px] sm:text-base font-normal leading-[120%]">
-                            Trusted by US & UK attorneys
-                        </span>
-                    </div>
-
-                    <!-- Item 2 -->
-                    <div class="flex items-start sm:items-center gap-3 py-4 sm:py-6 lg:justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 sm:w-6.75 sm:h-6.75 shrink-0"
-                            viewBox="0 0 27 27" fill="none">
-                            <rect x="0.5" y="0.5" width="26" height="26" rx="13" stroke="white" />
-                            <path d="M7 14.4226L10.3133 19L19 7" stroke="white" />
-                        </svg>
-                        <span class="text-white font-hepta-slab text-[12px] sm:text-base font-normal leading-[120%]">
-                            No retainers
-                        </span>
-                    </div>
-
-                    <!-- Item 3 -->
-                    <div class="flex items-start sm:items-center gap-3 py-4 sm:py-6 lg:justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 sm:w-6.75 sm:h-6.75 shrink-0"
-                            viewBox="0 0 27 27" fill="none">
-                            <rect x="0.5" y="0.5" width="26" height="26" rx="13" stroke="white" />
-                            <path d="M7 14.4226L10.3133 19L19 7" stroke="white" />
-                        </svg>
-                        <span class="text-white font-hepta-slab text-[12px] sm:text-base font-normal leading-[120%]">
-                            14-day delivery
-                        </span>
-                    </div>
-
-                    <!-- Item 4 -->
-                    <div class="flex items-start sm:items-center gap-3 py-4 sm:py-6 lg:justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 sm:w-6.75 sm:h-6.75 shrink-0"
-                            viewBox="0 0 27 27" fill="none">
-                            <rect x="0.5" y="0.5" width="26" height="26" rx="13" stroke="white" />
-                            <path d="M7 14.4226L10.3133 19L19 7" stroke="white" />
-                        </svg>
-                        <span class="text-white font-hepta-slab text-[12px] sm:text-base font-normal leading-[120%]">
-                            GBP setup included
-                        </span>
-                    </div>
-
-                    <!-- Item 5 -->
-                    <div class="flex items-start sm:items-center gap-3 py-4 sm:py-6 lg:justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 sm:w-6.75 sm:h-6.75 shrink-0"
-                            viewBox="0 0 27 27" fill="none">
-                            <rect x="0.5" y="0.5" width="26" height="26" rx="13" stroke="white" />
-                            <path d="M7 14.4226L10.3133 19L19 7" stroke="white" />
-                        </svg>
-                        <span class="text-white font-hepta-slab text-[12px] sm:text-base font-normal leading-[120%]">
-                            Launch in 14 days
-                        </span>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- Glass Bottom Section -->
 
     <!-- Most common problem section -->
-    <section class="bg-[#FDF8F9] py-12">
+    <section class="bg-offwhite py-12">
         <div class="container mx-auto">
 
             <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-8">
@@ -609,7 +598,7 @@
                 <!-- left content -->
                 <div class="left-content-area w-full lg:w-1/2 flex justify-center items-center relative">
                     <img src="assets/images/yellowcircle.png" alt="Man in Suit"
-                        class="w-auto h-70 md:h-[95%] object-contain gsap-fade-in" />
+                        class="w-auto h-70 md:h-[95%] object-contain Law-fade-in" />
 
                     <!-- Bottom border -->
                     <div class="absolute bottom-0 left-0 w-full border-b border-light-rosewood"></div>
@@ -1087,8 +1076,7 @@
     </section>
     <!-- 8 features section  -->
 
-
-    <!-- practise areas section  -->
+    <!-- practise areas 01 section  -->
     <section class="bg-[#F3EBED] text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
         <div class="container">
             <div class=" space-y-12">
@@ -1230,10 +1218,10 @@
             </div>
         </div>
     </section>
-    <!-- practise areas section  -->
+    <!-- practise areas 01 section  -->
 
     <!-- Four Phases Section  -->
-    <section class="bg-[#FDF8F9] text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
+    <section class="bg-offwhite text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
 
         <div class="container">
             <div class="space-y-16">
@@ -1323,13 +1311,13 @@
     <section class="bg-cream text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
         <div class="container ">
 
-            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-12 lg:gap-16">
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-6 sm:gap-10 lg:gap-16">
 
                 <!-- left content -->
                 <div class="left-content-area w-full lg:w-1/2 flex justify-center items-end relative self-stretch">
                     <!-- Using the verbatim file name as an asset reference if needed: image_e610bd.png serves as design reference -->
                     <img src="assets/images/yellowcircle2.png" alt="Man in Suit"
-                        class="w-auto  object-contain gsap-fade-in z-10" />
+                        class="w-auto  object-contain Law-fade-in z-10" />
 
                     <!-- Bottom border -->
                     <div class="absolute bottom-0 left-0 w-full border-b border-light-rosewood"></div>
@@ -1345,11 +1333,12 @@
                                 class="text-[30px] sm:text-[48px] md:text-[72px] text-dark-rosewood font-normal leading-[110%]">
                                 Pixxen Serving nationwide
                             </h2>
-                            <p class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%] pt-5 sm:pt-8 md:pt-12 pb-4 sm:pb-6 md:pb-8">
+                            <p
+                                class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%] pt-0 sm:pt-8 md:pt-12 pb-4 sm:pb-6 md:pb-8">
                                 Attorney website design in your city
                             </p>
                             <!-- Bottom border -->
-                    <div class="w-full border-b border-light-rosewood"></div>
+                            <div class="w-full border-b border-light-rosewood"></div>
                         </div>
 
                         <!-- 3-Column City List Grid -->
@@ -1553,7 +1542,7 @@
                         </div>
 
                         <!-- Footer Note -->
-                        <p class="text-dark-rosewood text-base font-normal leading-[130%] pt-5 sm:pt-8 md:pt-12">
+                        <p class="text-dark-rosewood text-base font-normal leading-[130%] pt-0 sm:pt-8 md:pt-12">
                             Don't see your city? We work with attorneys across the US, UK, and Canada. The local SEO
                             foundation is identical regardless of market — what changes is the citation strategy, the
                             bar association directories we get you listed in, and the specific neighborhood-level
@@ -1568,6 +1557,1390 @@
         </div>
     </section>
     <!-- serving nationwide section -->
+
+    <!-- Recent Projects Section -->
+    <section class="bg-dark-rosewood text-white pt-12 pb-20 sm:py-16 md:py-24 font-hepta-slab">
+
+        <!-- Container Div -->
+        <div class="container  px-4 space-y-16 max-w-7xl">
+
+            <!-- Top Header Column block -->
+            <div class="text-center max-w-248 mx-auto space-y-6">
+                <h2 class="text-[30px] sm:text-[48px] md:text-[72px] text-white font-normal leading-[110%]">
+                    Recent projects
+                </h2>
+                <p class="text-xl sm:text-2xl md:text-[32px] text-white font-normal leading-[110%]">
+                    Real attorney websites we've built
+                </p>
+                <p class="text-[14px] sm:text-[16px] text-white font-normal leading-[130%] opacity-80">
+                    Click any case study for the metrics, the redesign rationale, and the conversion lift after launch.
+                </p>
+            </div>
+
+            <!-- Splide Slider Wrapper -->
+            <div class="splide law-projects-slider" aria-label="Recent Projects">
+                <div class="splide__track">
+                    <ul class="splide__list">
+
+                        <!-- Project Card 1 -->
+                        <li class="splide__slide">
+                            <a href="#">
+                                <div
+                                    class="flex flex-col h-full border border-white/40 hover:border-white transition-colors duration-300 group cursor-pointer">
+
+                                    <!-- Image Container -->
+                                    <div
+                                        class="aspect-[4/3] w-full bg-[#4A202B] relative overflow-hidden flex items-center justify-center">
+
+                                        <img src="assets/images/reeves-and-reeves-injury-law1.jpg"
+                                            alt="Reeves and Reeves Injury Law"
+                                            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+
+                                    </div>
+
+                                    <!-- Content -->
+                                    <div
+                                        class="bg-white text-dark-rosewood p-6 md:p-8 flex flex-col justify-between flex-grow space-y-4">
+
+                                        <div class="space-y-3">
+
+                                            <span
+                                                class="block text-xs uppercase tracking-wider text-dark-rosewood/60 font-sans font-semibold">
+                                                Personal injury
+                                            </span>
+
+                                            <h4
+                                                class="text-2xl font-hepta-slab font-normal leading-[110%] text-dark-rosewood group-hover:text-rosewood1">
+                                                Reeves and Reeves Injury Law
+                                            </h4>
+
+                                            <p
+                                                class="text-[14px] sm:text-[15px] text-dark-rosewood/80 font-normal leading-[140%] font-sans">
+                                                Logo, brand identity, all 8 pages designed in Figma. You review and sign
+                                                off
+                                                before any code gets written.
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Project Card 2 -->
+                        <li class="splide__slide">
+                            <a href="#">
+                                <div
+                                    class="flex flex-col h-full border border-white/40 hover:border-white transition-colors duration-300 group cursor-pointer">
+
+                                    <!-- Image Container -->
+                                    <div
+                                        class="aspect-[4/3] w-full bg-[#4A202B] relative overflow-hidden flex items-center justify-center">
+
+                                        <img src="assets/images/reeves-and-reeves-injury-law2.jpg"
+                                            alt="Reeves and Reeves Injury Law"
+                                            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+
+                                    </div>
+
+                                    <!-- Content -->
+                                    <div
+                                        class="bg-white text-dark-rosewood p-6 md:p-8 flex flex-col justify-between flex-grow space-y-4">
+
+                                        <div class="space-y-3">
+
+                                            <span
+                                                class="block text-xs uppercase tracking-wider text-dark-rosewood/60 font-sans font-semibold">
+                                                Personal injury
+                                            </span>
+
+                                            <h4
+                                                class="text-2xl font-hepta-slab font-normal leading-[110%] text-dark-rosewood group-hover:text-rosewood1">
+                                                Reeves and Reeves Injury Law
+                                            </h4>
+
+                                            <p
+                                                class="text-[14px] sm:text-[15px] text-dark-rosewood/80 font-normal leading-[140%] font-sans">
+                                                Logo, brand identity, all 8 pages designed in Figma. You review and sign
+                                                off
+                                                before any code gets written.
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Project Card 3 -->
+                        <li class="splide__slide">
+                            <a href="#">
+                                <div
+                                    class="flex flex-col h-full border border-white/40 hover:border-white transition-colors duration-300 group cursor-pointer">
+
+                                    <!-- Image Container -->
+                                    <div
+                                        class="aspect-[4/3] w-full bg-[#4A202B] relative overflow-hidden flex items-center justify-center">
+
+                                        <img src="assets/images/reeves-and-reeves-injury-law3.jpg"
+                                            alt="Reeves and Reeves Injury Law"
+                                            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+
+                                    </div>
+
+                                    <!-- Content -->
+                                    <div
+                                        class="bg-white text-dark-rosewood p-6 md:p-8 flex flex-col justify-between flex-grow space-y-4">
+
+                                        <div class="space-y-3">
+
+                                            <span
+                                                class="block text-xs uppercase tracking-wider text-dark-rosewood/60 font-sans font-semibold">
+                                                Personal injury
+                                            </span>
+
+                                            <h4
+                                                class="text-2xl font-hepta-slab font-normal leading-[110%] text-dark-rosewood group-hover:text-rosewood1">
+                                                Reeves and Reeves Injury Law
+                                            </h4>
+
+                                            <p
+                                                class="text-[14px] sm:text-[15px] text-dark-rosewood/80 font-normal leading-[140%] font-sans">
+                                                Logo, brand identity, all 8 pages designed in Figma. You review and sign
+                                                off
+                                                before any code gets written.
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Recent Projects Section -->
+    <!-- Platform & integrations Section -->
+    <section class="bg-offwhite text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
+
+        <!-- Container Div -->
+        <div class="container space-y-12">
+            <!-- header section -->
+            <div class="text-center max-w-248 mx-auto space-y-6">
+                <h2 class="text-[30px] sm:text-[48px] md:text-[72px] text-dark-rosewood font-normal leading-[110%]">
+                    Platform & integrations</h2>
+                <p class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">
+                    The right platform for your law firm
+                </p>
+                <p class="text-[14px] sm:text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                    WordPress, Webflow, or Framer. We help you pick based on who maintains the site, how often you
+                    update it, and how aggressively you compete on local SEO.
+                </p>
+            </div>
+
+
+            <!-- Scrollable wrapper for small devices -->
+            <div class="md:hidden mb-2 text-center text-xs text-gray-500">
+                ← Swipe to explore integrations →
+            </div>
+
+            <div class="overflow-x-auto border border-[#E4D7DA] rounded">
+                <table class="w-full min-w-175 md:min-w-0 bg-white border-collapse text-left">
+
+                    <!-- Table Header -->
+                    <thead>
+                        <tr class="bg-yellow text-black text-base sm:text-lg md:text-2xl leading-[130%]">
+                            <th class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA] font-normal">
+                                Best for
+                            </th>
+                            <th class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA] font-normal">
+                                WordPress
+                            </th>
+                            <th class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA] font-normal">
+                                Webflow
+                            </th>
+                            <th class="py-2 md:py-3 px-3 md:px-4 font-normal">
+                                Framer
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <!-- Table Body -->
+                    <tbody
+                        class="text-xs sm:text-sm md:text-[16px] font-normal text-dark-rosewood divide-y divide-[#E4D7DA]">
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Solo attorneys + boutique firms
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Best fit
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Good
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Good
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Multi-attorney firms
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Best fit
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Best fit
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Good
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Paralegal editing on their own
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Easiest
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Medium
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Medium
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Aggressive local SEO competition
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Best
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Strong
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Good
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Page-load speed
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Good
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Excellent
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Excellent
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Monthly hosting
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                $10–30
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                $23–39
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                $15–30
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Bottom content -->
+            <div class="text-center pt-2">
+                <h3 class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">
+                    Integrations built into every
+                    package</h3>
+                <p class="text-[14px] sm:text-base text-dark-rosewood font-normal leading-[130%] pt-3 sm:pt-6">Practice
+                    management, intake,
+                    CRM, payment processing — your existing tools plug in without extra fees.</p>
+
+                <div class="mt-6 text-dark-rosewood max-w-248 mx-auto flex justify-center">
+
+                    <div class="flex flex-wrap items-center justify-center gap-3  ">
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            Clio
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            MyCase
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            PracticePanther
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            Smokeball
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            CASEpeer
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            Lawmatics
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            CallRail
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            Google Business Profile
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            Avvo
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            Martindale
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            FindLaw
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            LawPay
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            QuickBooks
+                        </div>
+                        <div
+                            class="border border-dark-rosewood px-3 py-1 md:px-6 md:py-3 text-[12px] sm:text-[14px] md:text-base font-normal leading-[130%]  min-w-25 text-center">
+                            Calendly
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Platform & integrations Section -->
+
+    <!-- Comparison Table Section -->
+    <section class="bg-cream text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
+
+        <!-- Container Div -->
+        <div class="container space-y-12">
+            <!-- header section -->
+            <div class="text-center max-w-248 mx-auto space-y-6">
+                <h2 class="text-[30px] sm:text-[48px] md:text-[72px] text-dark-rosewood font-normal leading-[110%]">
+                    Comparison</h2>
+                <p class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">
+                    Pixxen vs DIY platforms vs legal marketing agencies
+                </p>
+                <p class="text-[14px] sm:text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                    Three honest paths. Each fits a different firm. Here's the math, no spin.
+                </p>
+            </div>
+
+
+            <!-- Scrollable wrapper for small devices -->
+            <div class="md:hidden mb-2 text-center text-xs text-gray-500">
+                ← Swipe to compare options →
+            </div>
+
+            <div class="overflow-x-auto border border-[#E4D7DA] rounded">
+                <table class="w-full min-w-175 md:min-w-0 bg-white border-collapse text-left">
+
+                    <!-- Table Header -->
+                    <thead>
+                        <tr class="bg-yellow text-black text-base sm:text-lg md:text-2xl leading-[130%]">
+                            <th class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA] font-normal">
+                                Features
+                            </th>
+                            <th class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA] font-normal">
+                                DIY (Wix, Squarespace)
+                            </th>
+                            <th class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA] font-normal">
+                                Pixxen
+                            </th>
+                            <th class="py-2 md:py-3 px-3 md:px-4 font-normal">
+                                Legal marketing agency
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <!-- Table Body -->
+                    <tbody
+                        class="text-xs sm:text-sm md:text-[16px] font-normal text-dark-rosewood divide-y divide-[#E4D7DA]">
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Total investment
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                $20–50/mo
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                $999 once
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                $3,000–15,000/mo
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Time to launch
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                20–40 hours of you
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                14 days
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                2–6 months
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Logo + branding
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                DIY
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Included
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Extra ($500–2,500)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                SEO content
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                DIY
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Included
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Included or monthly
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Practice area pages
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Generic templates
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Custom per area
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Custom per area
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                GMB optimization
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                DIY
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Included
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Included
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Legal industry expertise
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                None
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Attorney-only focus
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Varies
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                You own the site
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Locked to platform
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Yes, on day one
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Often yes
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Ongoing SEO retainer
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                None
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4 border-r border-[#E4D7DA]">
+                                Optional add-on
+                            </td>
+                            <td class="py-2 md:py-3 px-3 md:px-4">
+                                Required
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Bottom Summary Note -->
+            <div class="text-center pt-2">
+                <p class="text-base font-normal leading-[130%] text-dark-rosewood font-hepta-slab max-w-248 mx-auto">
+                    Most firms in their first 2-3 years should pick Pixxen. Multi-million-dollar PI firms in saturated
+                    metros eventually outgrow the package and need a full-service agency — and at that scale the math
+                    works. The DIY path almost always costs more in lost leads than it saves in fees.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Comparison Table Section -->
+
+    <!-- Realistic timeline Section  -->
+    <section class="bg-offwhite text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
+
+        <div class="container">
+            <div class="space-y-16">
+
+                <div class="text-center max-w-248 mx-auto space-y-6">
+                    <h2 class="text-[30px] sm:text-[48px] md:text-[72px] text-dark-rosewood font-normal leading-[110%]">
+                        Realistic timeline</h2>
+                    <p class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">From
+                        What to actually expect from your law firm SEO
+                    </p>
+                    <p class="text-[14px] sm:text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                        Honest up-front beats a sales pitch every time. Here's how legal SEO actually plays out after
+                        launch — what changes when, and what won't.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center pt-4">
+
+                    <div class="flex flex-col items-center space-y-4">
+                        <div
+                            class="w-16 h-16 md:w-24 md:h-24 rounded-full border border-dark-rosewood text-dark-rosewood flex items-center justify-center text-2xl md:text-[32px] font-medium leading-[110%]">
+                            1
+                        </div>
+                        <h4
+                            class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%] pt-2">
+                            Launch</h4>
+                        <p class="text-[14px] sm:text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                            Site indexed within 24-48 hours. GMB live. Search Console tracking. Branded queries start
+                            ranking immediately.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col items-center space-y-4">
+                        <div
+                            class="w-16 h-16 md:w-24 md:h-24 rounded-full border border-dark-rosewood text-dark-rosewood flex items-center justify-center text-2xl md:text-[32px] font-medium leading-[110%]">
+                            2
+                        </div>
+                        <h4
+                            class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%] pt-2">
+                            First impressions</h4>
+                        <p class="text-[14px] sm:text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                            GMB enters local map searches. Long-tail attorney queries ("[practice area] lawyer
+                            [neighborhood]") start ranking on page 2-3.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col items-center space-y-4">
+                        <div
+                            class="w-16 h-16 md:w-24 md:h-24 rounded-full border border-dark-rosewood text-dark-rosewood flex items-center justify-center text-2xl md:text-[32px] font-medium leading-[110%]">
+                            3
+                        </div>
+                        <h4
+                            class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%] pt-2">
+                            First real leads</h4>
+                        <p class="text-[14px] sm:text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                            Practice area + city queries hit page 1. GMB enters local 3-pack for less competitive terms.
+                            First measurable lift in consultation requests.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col items-center space-y-4">
+                        <div
+                            class="w-16 h-16 md:w-24 md:h-24 rounded-full border border-dark-rosewood text-dark-rosewood flex items-center justify-center text-2xl md:text-[32px] font-medium leading-[110%]">
+                            4
+                        </div>
+                        <h4
+                            class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%] pt-2">
+                            Compounding</h4>
+                        <p class="text-[14px] sm:text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                            Top "[practice area] lawyer near me" queries reach top 3. Reviews accumulate. Cases compound
+                            month over month.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Realistic timeline Section  -->
+
+    <!-- Real Talk section -->
+    <section class="bg-[#F3EBED] text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
+        <div class="container ">
+
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-12 lg:gap-16">
+
+                <!-- left content -->
+                <div class="left-content-area w-full lg:w-1/2 flex justify-center items-end relative self-stretch">
+                    <!-- Using the verbatim file name as an asset reference if needed: image_e610bd.png serves as design reference -->
+                    <img src="assets/images/yellowcircle3.png" alt="Man in Suit"
+                        class="w-auto object-contain Law-fade-in z-10" />
+
+                    <!-- Bottom border -->
+                    <div class="absolute bottom-0 left-0 w-full border-b border-light-rosewood"></div>
+                </div>
+
+                <!-- right content -->
+                <div class="w-full lg:w-1/2">
+                    <div class="right-content-area text-left space-y-6">
+
+                        <!-- Titles -->
+                        <div class="mb-5 sm:mb-8">
+                            <h2
+                                class="text-[30px] sm:text-[48px] md:text-[72px] text-dark-rosewood font-normal leading-[110%] mb-5 sm:mb-8">
+                                Real Talk
+                            </h2>
+                            <p class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">
+                                What we won't promise (and what no honest agency will)
+                            </p>
+                        </div>
+                        <div class="law-realtalk-description">
+                            <div
+                                class="space-y-4 text-[14px] sm:text-base text-dark-rosewood font-normal leading-[130%]">
+                                <p>Page-1 rankings on day one for "personal injury lawyer [major metro]." That keyword
+                                    has been fought over for 15 years by firms spending $50K/month. We close the gap; we
+                                    don't teleport you past it.</p>
+                                <p>#1 in the Google 3-pack without ongoing review collection. Reviews matter as much as
+                                    the website. You have to ask, we'll show you the templates.</p>
+                                <p>Beating ethics rules. We follow ABA Model Rule 7.1 and your state's rules on lawyer
+                                    advertising. No "best attorney" claims, no fake testimonials, no comparative
+                                    superiority statements that aren't substantiated.</p>
+                                <p>SEO results without you using the website. The site brings calls. You and your intake
+                                    team close them.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!-- Real Talk section -->
+
+    <!-- Testimonial section -->
+    <section class="bg-dark-rosewood text-white pt-12 pb-20 sm:py-16 md:py-24 font-hepta-slab">
+
+        <!-- Container Div -->
+        <div class="container space-y-16">
+
+            <!-- Top Header Column block -->
+            <div class="text-center max-w-248 mx-auto space-y-6">
+                <h2 class="text-[30px] sm:text-[48px] md:text-[72px] text-white font-normal leading-[110%]">
+                    Client Reviews</h2>
+                <p class="text-xl sm:text-2xl md:text-[32px] text-white font-normal leading-[110%]">Reviews from law
+                    firms we've built
+                </p>
+                <p class="text-[14px] sm:text-[16px] text-white font-normal leading-[130%]">
+                    Replace placeholder reviews with real attorney testimonials before launch. Get permission to use
+                    firm name + photo where bar rules allow.
+                </p>
+            </div>
+
+            <!--  Reviews Grid -->
+            <div class="splide law-testimonial-slider" aria-label="Law Testimonials">
+                <div class="splide__track">
+                    <ul class="splide__list">
+
+                        <!-- Testimonial 1 -->
+                        <li class="splide__slide">
+                            <div
+                                class="law-testimonial-card bg-white text-dark-rosewood p-6 md:p-8 flex flex-col justify-between h-full">
+
+                                <div class="">
+                                    <div class="flex items-center gap-1 law-testimonial-stars pb-8">
+                                        <span class="inline-flex items-center justify-center w-8 h-8">
+                                            <img src="assets/images/law-review-star.svg" alt="rating">
+                                        </span>
+                                        <span class="inline-flex items-center justify-center w-8 h-8">
+                                            <img src="assets/images/law-review-star.svg" alt="rating">
+                                        </span>
+                                        <span class="inline-flex items-center justify-center w-8 h-8">
+                                            <img src="assets/images/law-review-star.svg" alt="rating">
+                                        </span>
+                                        <span class="inline-flex items-center justify-center w-8 h-8">
+                                            <img src="assets/images/law-review-star.svg" alt="rating">
+                                        </span>
+                                        <span class="inline-flex items-center justify-center w-8 h-8">
+                                            <img src="assets/images/law-review-star.svg" alt="rating">
+                                        </span>
+                                    </div>
+
+                                    <h4
+                                        class="law-testimonial-title text-2xl font-hepta-slab font-normal leading-[110%] pb-4">
+                                        Great work
+                                    </h4>
+
+                                    <p
+                                        class="law-testimonial-content text-[16px] text-dark-rosewood font-hepta-slab font-normal leading-[130%]">
+                                        Pixxen delivered in 12 days what our last agency took 5 months to half-finish.
+                                        Our consult requests went from 11 a month to 38 within the first quarter. Real,
+                                        qualified leads — not the spam form-fills we used to get.
+                                    </p>
+                                </div>
+
+                                <div class="flex justify-between items-end pt-4">
+                                    <span
+                                        class="law-testimonial-author text-[16px] text-dark-rosewood font-hepta-slab font-bold leading-[130%]">
+                                        Mark Reeves
+                                    </span>
+
+                                    <span class="law-testimonial-quote w-12 h-12">
+                                        <img src="assets/images/law-review-quote.svg" alt="testimonial quote">
+                                    </span>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Testimonial section -->
+
+    <!-- practise areas 02 section  -->
+    <section class="bg-[#F3EBED] text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
+        <div class="container">
+            <div class=" space-y-12">
+
+                <div class="text-center max-w-248 mx-auto space-y-6">
+                    <h2 class="text-[30px] sm:text-[48px] md:text-[72px] text-dark-rosewood font-normal leading-[110%]">
+                        Practice areas</h2>
+                    <p class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">Website
+                        design built around your specific
+                        practice</p>
+                    <p class="text-[14px] sm:text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                        A personal injury site sells differently than an estate planning site. We tailor the package to
+                        what prospects need before they call.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <div class="bg-white p-6  md:p-8 flex flex-col space-y-4 ">
+                        <div>
+                            <img src="assets/images/how-to-rank-in-the-google-3-pack-as-a-local-attorney.svg"
+                                alt="how-to-rank-in-the-google-3-pack-as-a-local-attorney">
+                        </div>
+                        <h4 class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">
+                            How to rank in the Google 3-pack as a local attorney</h4>
+                        <p class="text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                            The 9 GMB signals Google weighs most heavily for legal queries, ranked by impact.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6  md:p-8 flex flex-col space-y-4 ">
+                        <div>
+                            <img src="assets/images/the-practice-area-page-template-that-ranks-and-converts.svg"
+                                alt="the-practice-area-page-template-that-ranks-and-converts">
+                        </div>
+                        <h4 class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">
+                            The practice area page template that ranks (and converts)</h4>
+                        <p class="text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                            The exact 11-section structure we use, with word counts and schema markup.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6  md:p-8 flex flex-col space-y-4 ">
+                        <div>
+                            <img src="assets/images/asking-attorneys-clients-for-reviews-without-breaking-bar-rules.svg"
+                                alt="asking-attorneys-clients-for-reviews-without-breaking-bar-rules">
+                        </div>
+                        <h4 class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">
+                            Asking attorneys' clients for reviews without breaking bar rules</h4>
+                        <p class="text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                            Three email and text templates that comply with ABA Model Rule 7.1.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6  md:p-8 flex flex-col space-y-4 ">
+                        <div>
+                            <img src="assets/images/the-4-question-consultation-form-that-doubled-signed-retainers.svg"
+                                alt="the-4-question-consultation-form-that-doubled-signed-retainers">
+                        </div>
+                        <h4 class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">
+                            The 4-question consultation form that doubled signed retainers</h4>
+                        <p class="text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                            Why 14-field intake forms kill conversion and what to ask instead.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6  md:p-8 flex flex-col space-y-4 ">
+                        <div>
+                            <img src="assets/images/attorney-bio-pages-that-signal-expertise-to-google.svg"
+                                alt="attorney-bio-pages-that-signal-expertise-to-google">
+                        </div>
+                        <h4 class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">
+                            Attorney bio pages that signal expertise to Google</h4>
+                        <p class="text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                            A teardown of 7 attorney bios from firms ranking page 1 for competitive PI keywords.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6  md:p-8 flex flex-col space-y-4 ">
+                        <div>
+                            <img src="assets/images/law-firm-ppc-vs-seo-the-real-math-for-2026.svg"
+                                alt="law-firm-ppc-vs-seo-the-real-math-for-2026">
+                        </div>
+                        <h4 class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%]">
+                            Law firm PPC vs SEO: the real math for 2026</h4>
+                        <p class="text-[16px] text-dark-rosewood font-normal leading-[130%]">
+                            Why $150 CPC personal injury keywords don't mean PPC is dead — and when SEO beats it.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- practise areas 02 section  -->
+
+    <!-- Ready when you are section -->
+    <section class="bg-cream text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
+        <div class="container ">
+
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-12 lg:gap-16">
+
+                <!-- left content -->
+                <div class="left-content-area w-full lg:w-1/2 flex justify-center items-end relative self-stretch">
+                    <!-- Using the verbatim file name as an asset reference if needed: image_e610bd.png serves as design reference -->
+                    <img src="assets/images/yellowcircle4.png" alt="Man in Suit"
+                        class="w-auto  object-contain Law-fade-in z-10" />
+
+                    <!-- Bottom border -->
+                    <div class="absolute bottom-0 left-0 w-full border-b border-light-rosewood"></div>
+                </div>
+
+                <!-- right content -->
+                <div class="w-full lg:w-1/2">
+                    <div class="right-content-area text-left space-y-6">
+
+                        <!-- Titles -->
+                        <div class="">
+                            <h2
+                                class="text-[30px] sm:text-[48px] md:text-[72px] text-dark-rosewood font-normal leading-[110%] max-w-120 mb-8">
+                                Ready when you are
+                            </h2>
+                            <p
+                                class="text-xl sm:text-2xl md:text-[32px] text-dark-rosewood font-normal leading-[110%] ">
+                                Ready for a website that turns search traffic into signed cases?
+                            </p>
+                        </div>
+                        <!-- description -->
+                        <div class="space-y-6 text-base text-dark-rosewood font-normal leading-[130%]">
+                            <p>Book a free 15-minute call. We'll review your current site, audit your top three
+                                competitors who outrank you, name the three biggest leaks costing you cases right now,
+                                and tell you honestly whether the Pixxen Law Firm Pack fits — or whether you need
+                                something bigger.</p>
+                            <p class="text-xl">Law firm pack Only $999</p>
+                        </div>
+
+                        <!-- Button -->
+                        <div class="pt-4">
+                            <a href="contact.html"
+                                class="inline-flex items-center justify-center xl:px-12 md:px-5 px-6 py-4 mega-reveal-btn relative overflow-hidden bg-dark-rosewood text-base leading-6 text-white font-medium transition-colors uppercase">
+                                <div class="text-mask h-6 overflow-hidden flex flex-col">
+                                    <span class="t-up text-base font-medium text-white">Book a free 15-min call</span>
+                                    <span class="t-down text-base font-medium text-white">Book a free 15-min call</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- List items -->
+                        <div>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 shrink-0 mt-0.5"
+                                        viewBox="0 0 21 21" fill="none">
+                                        <rect x="0.5" y="0.5" width="20" height="20" rx="10" stroke="#622C3A" />
+                                        <path d="M7 11.9484L9.2089 15L15 7" stroke="#622C3A" />
+                                    </svg>
+                                    <p class="text-sm sm:text-base font-normal leading-[130%]">
+                                        No pitch deck
+                                    </p>
+                                </li>
+
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 shrink-0 mt-0.5"
+                                        viewBox="0 0 21 21" fill="none">
+                                        <rect x="0.5" y="0.5" width="20" height="20" rx="10" stroke="#622C3A" />
+                                        <path d="M7 11.9484L9.2089 15L15 7" stroke="#622C3A" />
+                                    </svg>
+                                    <p class="text-sm sm:text-base font-normal leading-[130%]">
+                                        Honest fit assessment
+                                    </p>
+                                </li>
+
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 shrink-0 mt-0.5"
+                                        viewBox="0 0 21 21" fill="none">
+                                        <rect x="0.5" y="0.5" width="20" height="20" rx="10" stroke="#622C3A" />
+                                        <path d="M7 11.9484L9.2089 15L15 7" stroke="#622C3A" />
+                                    </svg>
+                                    <p class="text-sm sm:text-base font-normal leading-[130%]">
+                                        Quote within 24 hours
+                                    </p>
+                                </li>
+
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 shrink-0 mt-0.5"
+                                        viewBox="0 0 21 21" fill="none">
+                                        <rect x="0.5" y="0.5" width="20" height="20" rx="10" stroke="#622C3A" />
+                                        <path d="M7 11.9484L9.2089 15L15 7" stroke="#622C3A" />
+                                    </svg>
+                                    <p class="text-sm sm:text-base font-normal leading-[130%]">
+                                        Bar-rules compliant build
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!-- Ready when you are section -->
+
+    <!-- FAQ Section -->
+    <section class="bg-offwhite text-dark-rosewood py-12 sm:py-16 md:py-24 font-hepta-slab">
+        <div class="container ">
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+                <!-- Left -->
+                <div class="lg:col-span-6">
+                    <h2 class="text-[30px] sm:text-[48px] md:text-[72px] text-dark-rosewood font-normal leading-[110%]">
+                        Frequently asked questions
+                    </h2>
+                </div>
+
+                <!-- Right -->
+                <div class="lg:col-span-6">
+
+                    <!-- ITEM -->
+                    <div class="law-faq-item border-t border-dark-rosewood">
+
+                        <button class="law-faq-trigger w-full py-4 md:py-6 flex justify-between items-center text-left">
+                            <span class="text-base sm:text-lg md:text-xl font-normal leading-7">
+                                Is the $999 price really all-in?
+                            </span>
+                            <span class="law-faq-icon flex items-center justify-center cursor-pointer shrink-0">
+
+                                <span class="law-icon-plus transition-opacity duration-200">
+                                    <!-- PLUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="13" y="3" width="2" height="22" fill="#622C3A" />
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                                <span class="law-icon-minus opacity-0 transition-opacity duration-200 absolute">
+                                    <!-- MINUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                            </span>
+                        </button>
+
+                        <div class="law-faq-content">
+                            <div class="pb-6 text-rosewood1">
+                                Yes, it includes design, development, launch, and setup with no hidden charges.
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ITEM -->
+                    <div class="law-faq-item border-t border-dark-rosewood">
+
+                        <button class="law-faq-trigger w-full py-4 md:py-6 flex justify-between items-center text-left">
+                            <span class="text-base sm:text-lg md:text-xl font-normal leading-7">
+                                Will my firm rank #1 for "personal injury lawyer near me"?
+                            </span>
+                            <span class="law-faq-icon flex items-center justify-center cursor-pointer shrink-0">
+
+                                <span class="law-icon-plus transition-opacity duration-200">
+                                    <!-- PLUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="13" y="3" width="2" height="22" fill="#622C3A" />
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                                <span class="law-icon-minus opacity-0 transition-opacity duration-200 absolute">
+                                    <!-- MINUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                            </span>
+                        </button>
+
+                        <div class="law-faq-content">
+                            <div class="pb-6 text-rosewood1">
+                                No SEO agency can guarantee #1 rankings, but we optimize for maximum visibility.
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ITEM -->
+                    <div class="law-faq-item border-t border-dark-rosewood">
+
+                        <button class="law-faq-trigger w-full py-4 md:py-6 flex justify-between items-center text-left">
+                            <span class="text-base sm:text-lg md:text-xl font-normal leading-7">
+                                Do you write the legal content yourself, or does an attorney review it?
+                            </span>
+                            <span class="law-faq-icon flex items-center justify-center cursor-pointer shrink-0">
+
+                                <span class="law-icon-plus transition-opacity duration-200">
+                                    <!-- PLUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="13" y="3" width="2" height="22" fill="#622C3A" />
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                                <span class="law-icon-minus opacity-0 transition-opacity duration-200 absolute">
+                                    <!-- MINUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                            </span>
+                        </button>
+
+                        <div class="law-faq-content">
+                            <div class="pb-6 text-rosewood1">
+                                We create draft content, but attorney review is recommended before publishing.
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ITEM -->
+                    <div class="law-faq-item border-t border-dark-rosewood">
+
+                        <button class="law-faq-trigger w-full py-4 md:py-6 flex justify-between items-center text-left">
+                            <span class="text-base sm:text-lg md:text-xl font-normal leading-7">
+                                How do you handle bar rules on advertising?
+                            </span>
+                            <span class="law-faq-icon flex items-center justify-center cursor-pointer shrink-0">
+
+                                <span class="law-icon-plus transition-opacity duration-200">
+                                    <!-- PLUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="13" y="3" width="2" height="22" fill="#622C3A" />
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                                <span class="law-icon-minus opacity-0 transition-opacity duration-200 absolute">
+                                    <!-- MINUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                            </span>
+                        </button>
+
+                        <div class="law-faq-content">
+                            <div class="pb-6 text-rosewood1">
+                                You can continue with maintenance plans or manage the site independently.
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- ITEM -->
+                    <div class="law-faq-item border-t border-dark-rosewood">
+
+                        <button class="law-faq-trigger w-full py-4 md:py-6 flex justify-between items-center text-left">
+                            <span class="text-base sm:text-lg md:text-xl font-normal leading-7">
+                                Do you integrate with Clio, MyCase, or PracticePanther?
+                            </span>
+                            <span class="law-faq-icon flex items-center justify-center cursor-pointer shrink-0">
+
+                                <span class="law-icon-plus transition-opacity duration-200">
+                                    <!-- PLUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="13" y="3" width="2" height="22" fill="#622C3A" />
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                                <span class="law-icon-minus opacity-0 transition-opacity duration-200 absolute">
+                                    <!-- MINUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                            </span>
+                        </button>
+
+                        <div class="law-faq-content">
+                            <div class="pb-6 text-rosewood1">
+                                You can continue with maintenance plans or manage the site independently.
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- ITEM -->
+                    <div class="law-faq-item border-t border-dark-rosewood">
+
+                        <button class="law-faq-trigger w-full py-4 md:py-6 flex justify-between items-center text-left">
+                            <span class="text-base sm:text-lg md:text-xl font-normal leading-7">
+                                Can you build a multi-attorney firm site, or just solo practitioners?
+                            </span>
+                            <span class="law-faq-icon flex items-center justify-center cursor-pointer shrink-0">
+
+                                <span class="law-icon-plus transition-opacity duration-200">
+                                    <!-- PLUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="13" y="3" width="2" height="22" fill="#622C3A" />
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                                <span class="law-icon-minus opacity-0 transition-opacity duration-200 absolute">
+                                    <!-- MINUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                            </span>
+                        </button>
+
+                        <div class="law-faq-content">
+                            <div class="pb-6 text-rosewood1">
+                                You can continue with maintenance plans or manage the site independently.
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- ITEM -->
+                    <div class="law-faq-item border-t border-dark-rosewood">
+
+                        <button class="law-faq-trigger w-full py-4 md:py-6 flex justify-between items-center text-left">
+                            <span class="text-base sm:text-lg md:text-xl font-normal leading-7">
+                                What if my firm is licensed in multiple states?
+                            </span>
+                            <span class="law-faq-icon flex items-center justify-center cursor-pointer shrink-0">
+
+                                <span class="law-icon-plus transition-opacity duration-200">
+                                    <!-- PLUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="13" y="3" width="2" height="22" fill="#622C3A" />
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                                <span class="law-icon-minus opacity-0 transition-opacity duration-200 absolute">
+                                    <!-- MINUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                            </span>
+                        </button>
+
+                        <div class="law-faq-content">
+                            <div class="pb-6 text-rosewood1">
+                                You can continue with maintenance plans or manage the site independently.
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- ITEM -->
+                    <div class="law-faq-item border-t border-dark-rosewood">
+
+                        <button class="law-faq-trigger w-full py-4 md:py-6 flex justify-between items-center text-left">
+                            <span class="text-base sm:text-lg md:text-xl font-normal leading-7">
+                                Do you do ongoing SEO or content writing after launch?
+                            </span>
+                            <span class="law-faq-icon flex items-center justify-center cursor-pointer shrink-0">
+
+                                <span class="law-icon-plus transition-opacity duration-200">
+                                    <!-- PLUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="13" y="3" width="2" height="22" fill="#622C3A" />
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                                <span class="law-icon-minus opacity-0 transition-opacity duration-200 absolute">
+                                    <!-- MINUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                            </span>
+                        </button>
+
+                        <div class="law-faq-content">
+                            <div class="pb-6 text-rosewood1">
+                                You can continue with maintenance plans or manage the site independently.
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- ITEM -->
+                    <div class="law-faq-item border-t border-b border-dark-rosewood">
+
+                        <button class="law-faq-trigger w-full py-4 md:py-6 flex justify-between items-center text-left">
+                            <span class="text-base sm:text-lg md:text-xl font-normal leading-7">
+                                What happens after the 30-day support window ends?
+                            </span>
+                            <span class="law-faq-icon flex items-center justify-center cursor-pointer shrink-0">
+
+                                <span class="law-icon-plus transition-opacity duration-200">
+                                    <!-- PLUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="13" y="3" width="2" height="22" fill="#622C3A" />
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                                <span class="law-icon-minus opacity-0 transition-opacity duration-200 absolute">
+                                    <!-- MINUS SVG -->
+                                    <svg class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 28 28" fill="none">
+                                        <rect x="25" y="13" width="2" height="22" transform="rotate(90 25 13)"
+                                            fill="#622C3A" />
+                                    </svg>
+                                </span>
+
+                            </span>
+                        </button>
+
+                        <div class="law-faq-content">
+                            <div class="pb-6 text-rosewood1">
+                                You can continue with maintenance plans or manage the site independently.
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 
     <!-- cta section start -->
     <section class="cta-section relative section-padding bg-dark-rosewood overflow-hidden">
@@ -1608,8 +2981,6 @@
         </div>
     </section>
     <!-- cta section end -->
-
-
 
     <!-- footer section start -->
     <footer class="relative">
@@ -1789,7 +3160,6 @@
         </div>
     </footer>
     <!-- footer section end -->
-
 
 
 
