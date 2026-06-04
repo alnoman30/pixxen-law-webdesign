@@ -880,3 +880,7 @@ html.lenis body {
     display: none;
   }
 }
+
+.common-pragraph p{
+    font-weight: 400 !important;
+}
