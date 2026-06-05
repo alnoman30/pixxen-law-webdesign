@@ -1536,10 +1536,12 @@ if (plySection) {
      OR null = creates its own ScrollTrigger (for h2)
   ════════════════════════════════════════════════ */
   function animateHeading(heading, tl, delay) {
+     if (heading.closest(".exit-heading-animation")) return;
     const hasSplit = typeof SplitText !== "undefined";
 
     if (tl) {
       // ── H1: plugged into master timeline ──────
+      
       if (hasSplit) {
         const split = new SplitText(heading, { type: "words" });
         split.words.forEach((w) => {
