@@ -1945,24 +1945,45 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // law-testimonial slider
 document.addEventListener('DOMContentLoaded', function () {
-  const commonOptions = {
+  const LawcommonOptions = {
     type: 'loop',
     perPage: 3,
     gap: '2rem',
-    arrows: true,
+
+    arrows: true, // Keep arrows
     pagination: false,
-    autoplay: true,
-    interval: 5000,
-    pauseOnHover: true,
+
+    drag: 'free',
+    snap: false,
+
+    autoScroll: {
+      speed: 1,
+      pauseOnHover: true,
+      pauseOnFocus: false,
+    },
 
     breakpoints: {
-      1024: { perPage: 2 },
-      768: { perPage: 1, gap: '1rem' }
-    }
+      1024: {
+        perPage: 2,
+      },
+      768: {
+        perPage: 1,
+        gap: '1rem',
+
+        // Stop auto-scroll on mobile
+        autoScroll: false,
+
+        // Keep arrows on mobile
+        arrows: true,
+      },
+    },
   };
 
-  new Splide('.law-testimonial-slider', commonOptions).mount();
-  new Splide('.law-projects-slider', commonOptions).mount();
+  new Splide('.law-testimonial-slider', LawcommonOptions)
+    .mount(window.splide.Extensions);
+
+  new Splide('.law-projects-slider', LawcommonOptions)
+    .mount(window.splide.Extensions);
 });
 
 
